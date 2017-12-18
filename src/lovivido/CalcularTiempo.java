@@ -21,7 +21,11 @@ int dias;
 int horas;
 int años;
 
-//Recibira el nombre y la edad de la persona
+/**
+ * Recibira el nombre y la edad de la persona
+ * @param nombre
+ * @param edad 
+ */
     public void recibirNombreEdad(String nombre, String edad){
     nombre = JOptionPane.showInputDialog ("Escriba su nombre: ");
     edad = JOptionPane.showInputDialog ("Escriba su edad: ");
@@ -29,8 +33,10 @@ int años;
     }
     
     /**
-     * Ahora vamos a calcular el tiempo que ha vivido
-     * y a devolverlo en meses, dias y horas
+     * Ahora vamos a calcular el tiempo que ha vivido y a devolverlo en meses, dias y horas
+     * @param meses
+     * @param dias
+     * @param horas 
      */
     public void calcularTiempo(int meses, int dias, int horas){
     meses = (años*12);
